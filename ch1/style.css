@@ -1,0 +1,54 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,9,121,0.8908685968819599) 0%, rgba(156,0,255,1) 55%);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#form{
+    width: 400px;;
+    margin:  20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+#form button{
+    background-color: rgba(156,0,255,1);
+    color: bisque;
+    border: 1px solid rgba(156,0,255,1);
+padding: 10px;
+margin: 20px 0px;
+border-radius: 5px;
+cursor:pointer;
+font-size: 20px;
+width:100%;
+}
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border:1px solid rgba(156,0,255,1);
+}
+.input-group.Error{
+    color: red;
+    font-size: 8px;
+    margin-top: 5px;
+}
+.input-group.Success input{
+    border-color: green;
+}
+.input-group.Error input{
+    border-color: red;
+}
